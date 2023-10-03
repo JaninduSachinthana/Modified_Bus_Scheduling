@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eBookingLk</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script src="../js/script.js"></script>
+    </head>
+    <body>
+        <header class="web">
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="#">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav web">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="ticket.html">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+        
+
+	
+	
+	
+	
+
+
+
+	
+	<div class="web">
+        <h1> Booking Tickets</h1><br>
+        <div class="ticket">
+            
+                <div class="ticketView">
+                
+
+
+                <form action="../php/ticketBook.php" id ="form" method="post">  
+                    <label>Starting Point : </label> <?php echo $startPoint;  ?>   <br><br>              
+                    <label>Dropping Point :</label>  <?php echo $endPoint; ?>   <br><br>
+                    <label>Route : </label> <?php echo $routeNo." ".$routeName ;?> <br>
+                    <label>Type :</label>
+                    <select id = "quantity" onchange="random" name="type" >
+                        <option value="Super Luxury">Super Luxury</option> 
+                        <option value="Luxury">Luxury</option> 
+                        <option value="Normal">Normal</option> 
+                    </select><br><br>
+                
+                    <label for="Date" >Date :</label>
+                    <input type="date" required name ="date"><br><br>
+
+                    <label>Enter Number of passenger:</label>				
+                    <select id = "quantity" onchange="random" class="qty" name="qty"><br><br>
+                        <option value="1">1</option> 
+                        <option value="2">2</option> 
+                        <option value="3">3</option> 
+                        <option value="4">4</option> 
+                        <option value="5">5</option> 
+                        <option value="6">6</option> 
+                        <option value="7">7</option> 
+                        <option value="8">8</option> 
+                        <option value="9">9</option>
+                        <option value="10">10</option> 
+                    </select><br><br>
+                    <input type="submit"  class = "b1" value = "Book Now"> 
+                </form>
+                    
+                </div>    
+            </div>
+    </div>
+	
+		<footer>
+            <div class="footer-nav web">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+                <p>Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+            <img src="../images/payment.png">
+        </div>
+        </footer>
+        
+    </body>
+</html>

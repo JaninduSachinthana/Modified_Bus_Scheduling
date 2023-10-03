@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eBookingLk</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script src="../js/script.js"></script>
+    </head>
+    <body>
+        <header class="web">
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="#">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav web">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="ticket.html">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+ <div class="web">
+        <h1> Checkout</h1><br>
+        <div class="ticket">
+            
+                
+                
+
+
+                <form action="../php/loadTickets.php" class="summery" >  
+                    <label>Choose payment method:</label><br>
+                    <input type="radio" id="payment" name="payment" checked>Paypal
+                    <input type="radio" id="Payment" name="payment" >Credit/Debit card <br>
+                    <input type="button" value = "Add new Payment Method">
+                    
+                    <p>OR</p>
+                    
+                    <div class="summery">
+                    <ul><li> Price per ticket: Rs. <?php echo  $pricePerTicket; ?><br></li></ul>
+                    <ul><li> No of passenger: <?php echo  $noOfPassengers; ?></li></ul>
+                    <ul><li> Total amount: Rs. <?php echo  $totAmount; ?></li></ul>
+                </div>
+                    <input type="submit" class = "b3"  value = "Pay Now">
+                </form>
+                
+                    
+                    
+            </div>
+    </div>       
+
+
+
+
+
+
+
+
+        
+        <br>
+        <footer>
+            <div class="footer-nav web">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="ticket.html">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+                <p>Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+            <img src="../images/payment.png">
+        </div>
+        </footer>
+    </body>
+</html>

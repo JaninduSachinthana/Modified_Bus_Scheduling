@@ -1,0 +1,147 @@
+.background{
+	margin:auto;
+	width:1200px;
+	height:auto;
+}
+.feedback{
+	margin:auto;
+	margin-left:280px;
+	margin-bottom:5px;
+	background-color:gray;
+	padding:5px 25px;
+	width:570px;
+	border:2px solid black;
+	border-radius:10px;
+}
+.parabox{
+	background-color:black;
+	margin-top:-6px;
+	margin-left:-25px;
+	margin-right:-26px;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}
+.para3{
+	font-size:35px;
+	margin:auto;
+	margin-bottom:-20px;
+	margin-left:150px;
+	color:white;
+	font-weight:bold;
+}
+
+/*rating*/
+.para{
+	font-size:25px;
+	font-weight:bold;
+	margin:auto;
+	margin-left:40%;
+	margin-top:20px;
+	margin-bottom:5px;
+	color:white;
+}
+.para1{
+	margin-left:180px;
+	margin-top:-20px;
+	color:lightgrey;
+}
+.para2{
+	margin-top:15px;
+	margin-left:155px;
+	color:lightgrey;
+	margin-bottom:-5px;
+}
+.rating{
+	margin-left:200px;
+	margin-top:-10px;
+	transform: rotate(180deg);
+	float:left;
+	display:inline;
+}
+.rating:hover{
+	cursor:pointer;
+}
+.rate{
+	transform:rotate(180deg);
+}
+.rating span{
+	font-size:170%;
+}
+.rating > .rate:hover,
+.rating > .rate:hover ~ .rate {
+  color:gold;
+}
+.rateset{
+	display:none;
+	margin-left:43%;
+	margin-top:10px;
+	margin-bottom:-15px;
+	outline:none;
+	background-color:lightgrey;
+}
+.rateset:hover{
+	cursor:pointer;
+	background-color:black;
+	color:white;
+}
+
+/*Feedback massage*/
+
+.form{
+	width:600px;
+	height:auto;
+	border:1px solid black;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-left:-15px;
+	background-color:lightgrey;
+	border-radius:5px;
+}
+.form form{
+	margin-left:40px;
+}
+input[type="text"]{
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#ebebeb;
+	width:220px;
+	height:20px;
+	border:1px solid black;
+}
+textarea{ 
+	margin-left:160px;
+	margin-top:-50px;
+	background-color:#ebebeb;
+	border:1px solid black;
+	resize:none;
+}
+.form p{
+	margin-top:10px;
+
+}
+input[type='submit']{
+	width:100px;
+	height:25px;
+	background-color:dodgerblue;
+	font-weight:bold;
+	color:lightblack;
+	margin-left:100px;
+	margin-top:20px;
+	margin-bottom:10px;
+	outline:none;
+}
+input[type='submit']:hover{
+	cursor:pointer;
+	background-color:#ff9403;
+}
+
+/* images */
+
+.image1{
+	margin-top:5px;
+	margin-left:190px;
+	height:250px;
+	width:800px;
+}

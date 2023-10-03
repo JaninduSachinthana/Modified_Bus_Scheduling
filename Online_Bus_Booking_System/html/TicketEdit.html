@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="../css/stylesNadun2.css">
+        <script src="../js/nadun.js"></script>
+    </head>
+    <body>
+        <header class="web">
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="register.html">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav web">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+       <div class="edit_ticket"><h2> Edit Ticket </h2></div>
+                <div class="c_main">
+                    <form method="get" action="../php/editTicket.php">
+                       <div id="c_name">
+                           
+                            <label for="name" class="Pick_at">Ticket ID:</label>
+                               <input type="text" id="Pick_at" name="ID" placeholder="Ticket ID"><br>
+                            <label for="name" class="Pick_at">New Date</label>
+                               &nbsp; &nbsp;<input type="date" id="N_date" name="date"><br>
+                           
+                            <label for="name" class="Pick_at">Pick at:</label>
+                              &nbsp; &nbsp; <input type="text" id="Pick_at" name="pick" placeholder="Add new"><br>
+                            <label for="name" class="Pick_at">Drop at:</label>
+                             &nbsp; &nbsp;  <input type="text" id="Drop_at" name="message" placeholder="Add new"> <br><br>
+                        
+                            <input type="submit" name="save" id="conbtn" value="Save">
+                           <input type="submit" name="back" id="conbtn1" value="Back">
+                        </div>
+                    </form>
+                    
+                    
+                </div>
+        
+        <br>
+        <footer>
+            <div class="footer-nav web">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+                <p>Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+            <img src="../images/payment.png">
+        </div>
+        </footer>
+    </body>
+</html>

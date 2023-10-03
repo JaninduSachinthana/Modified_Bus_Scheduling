@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>eBookingLk</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script src="../js/script.js"></script>
+    </head>
+    <body onload="readRoute();">
+        <header class="web">
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="register.html">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav web">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="../php/ticket.php">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+        <div class="content web">
+            <h2 class="animate">Book Your Ticket Today!!!</h2>
+            
+            <form name="searchForm" method="POST" action="../php/home.php" id = "myForm">
+                <label for="startPoint" name="startPoint">Start Point :</label>
+                <input type="text" name="startPoint">                
+                
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <label for="endPoint" name="endPoint">End Point :</label>
+                <input type="text" name="endPoint">                
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <!--      <button onclick="myFunction()" name="searchBtn">Search</button> -->
+                
+                <input type="submit" name="submitBtn" onload="readRoute()" value="Search" id="btnSearch">
+                
+            </form>
+            
+            <!-- Get From Data int Js
+            <div class="data" style="display: none">
+                <p id="start"><?php echo $startPoint; ?> </p>
+                <p id="end"><?php echo $endPoint; ?> </p>
+            </div>
+            <!-- Get From Data int Js  -->
+            <div  style="display: none" >
+                <p id="route"> <?php echo $routeNo; ?> </p>
+                <p id="routeStart"> <?php echo $routeStart; ?> </p>
+                <p id="routeEnd"> <?php echo $routeEnd; ?> </p>
+            </div>
+
+            <div id="r1">
+                <p id="route-1"></p>
+                
+                
+                <form action="../php/ticketing.php">
+                    <input type="submit" value="Select Route">
+                </form>
+                
+                
+                <a href="#">Select Route</a>
+            </div>    
+            <img src=" " id="routeImg" style="display:none">
+            
+            
+            
+            
+        </div>
+        
+        <br>
+        <footer>
+            <div class="footer-nav web">
+            <ul>
+                <li><a href="../html/index.html">Home</a> </li>
+                <li><a href="../html/ticket_bucket.html">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="../html/Feedback.html">Feedback</a> </li>
+				<li><a href="../html/Feedback.html">News and offers</a> </li>
+            </ul>
+                <p>Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+            <img src="../images/payment.png">
+        </div>
+        </footer>
+    </body>
+</html>

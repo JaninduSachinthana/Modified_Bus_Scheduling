@@ -1,0 +1,203 @@
+/* Header */
+
+.web {
+    max-width: 1140px;
+    margin:auto;
+}
+
+body {    
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+	background-position:center:
+}
+
+header {
+    height: 120px;
+    background-color: #313131;
+    position: relative;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 25px;
+    font-family: sans-serif;        
+}
+h1 span {
+    color: #ff9403;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.user {
+   position: absolute;
+   left: 900px;
+   top: 40px; 
+}
+.user img {
+    height: 40px;
+    position: relative;
+}
+
+.user a {
+    position: absolute; 
+    left: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.user a:link,
+.user a:visited {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid aliceblue;
+    border-radius: 200px;
+    padding: 10px 10px;
+}
+
+.user a:active,
+.user a:hover {
+    color: #ffffff; 
+    border: 1px solid #ff9403;
+    background-color: #ff9403;
+}
+
+
+
+/* Navigation Bar */
+.nav {
+    
+    height: 40px;
+    background-color: #ebebeb;
+    position: relative;
+}
+.nav ul {
+    margin: 0;
+    position: relative;
+    left: 31%;
+    
+}
+
+.nav li{
+    float: left;
+    list-style: none; 
+}
+
+.nav a:link,
+.nav a:visited {
+    display: inline-block;
+    color: #505050;
+    text-decoration: none;
+    border: 1px solid aliceblue;
+    padding: 10px 10px;
+    padding: 10px 20px;
+}
+
+.nav a:active,
+.nav a:hover {
+    color: #ffffff; 
+    border: 1px solid #ff9403;
+    background-color: #ff9403;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+.footer-nav {
+    background-color: #313131;
+    position: relative;
+    height: 100px;
+    color: aliceblue; 
+}
+
+.footer-nav ul {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    padding: 0 10px 0 0;  
+}
+
+.footer-nav a {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.footer-nav p{
+    margin: 0;
+    text-align: center;
+    font-size: 10px;  
+}
+
+
+.footer-nav a:link,
+.footer-nav a:visited {
+    color: #b1b1b1;
+    text-decoration: none;
+}
+
+.footer-nav a:active,
+.footer-nav a:hover {
+    color: #ffffff; 
+}
+
+.footer-nav img {
+    width: 200px;
+    float: right;
+    margin: 0;
+    margin-right: 15px;
+}
+.fpara{
+	position:absolute;
+	left:400px;
+	top:80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

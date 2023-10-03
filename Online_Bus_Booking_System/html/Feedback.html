@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eBookingLk/Feedback</title>
+        <link rel="stylesheet" type="text/css" href="../css/stylesJanidu.css">
+		<link rel="stylesheet" type="text/css" href="../css/FeedbackJanidu.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <body>
+        <header class="web">
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="#">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav web">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+		
+		<div class="background">
+			<div>  <img class="image1" src="../images/image6.jpg">  </div>
+			
+			<div class="feedback">
+					<div class="parabox">  <h3 class="para3">Give Us Feedback</h3>	</div>	<br/>
+					<p class="para">Rate us</p> <br/>
+					<h3 class="para1">Rate your experiance</h3>
+					<div class="rating">
+						<span onclick="starmark('5')" id="5" class="fa fa-star rate"></span>
+						<span onclick="starmark('4')" id="4" class="fa fa-star rate"></span>
+						<span onclick="starmark('3')" id="3" class="fa fa-star rate"></span>
+						<span onclick="starmark('2')" id="2" class="fa fa-star rate"></span>
+						<span onclick="starmark('1')" id="1" class="fa fa-star rate"></span>
+					</div>	<br/>
+					<button class="rateset" id="set" onclick="setrate()">Review</button>	<br/>
+				
+					<h3 class="para2">Please leave your feedback</h3>
+					<div class="form">
+						<form action="../php/fedback.php" method="get" target="_self">
+							<label>Name :</label>
+							<input type="text" name="username" id="Uname" placeholder="User name">	<br/>
+							
+							<label>Email :</label>
+							<input type="text" name="email" id="Uemail" placeholder="User email">	<br/>
+							
+							<p>Feedback Massage : </p> <br/>
+							<textarea name="message" id="message" rows="6" cols="50" placeholder="Discribing your experience..."></textarea>	<br/>
+						
+							<input type="submit" name="send" id="feedback" value="Send">
+						</form>
+					</div>
+			</div>
+		</div>
+		<footer>
+            <div class="footer-nav web">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+				<li><a href="#">Feedback</a> </li>
+				<li><a href="Newsoffer.html">News and offers</a> </li>
+            </ul>
+                <p class="fpara">Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+            <img src="../images/payment.png">
+        </div>
+        </footer>
+    </body>
+	<script src="../js/ratingJanidu.js"></script>
+</html>

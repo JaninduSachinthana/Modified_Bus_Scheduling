@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eBookingLk</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script src="../js/script.js"></script>
+    </head>
+    <body>
+        <header class="web">
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="register.html">Register/Login</a>
+            </div>
+            <div class="view-profile user">
+                <img src="../images/user.png">
+                <a href="register.html">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav web">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+        
+        <div class="content web">
+            <br>
+            <div class="form-title">
+                <ul>
+                    <li><button onclick="register()">Register</button></li>
+                    <li><button onclick="login()">Login</button></li>
+                </ul>
+            </div>
+                
+                <br>
+                <div class="reg-form">
+                    <form method="post" id="register" action="../php/regPage.php">
+                        <label for="firstName">First name :</label><br>
+                        <input type="text" id="firstName" name="firstName" value="" placeholder="Enter your first name..." required><br><br>
+
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lastName" name="lastName" value="" placeholder="Enter your last name..." required><br><br>
+
+                        <label for="lname">Mobile No:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your mobile no(eg:-071 123 1234)" pattern="[0-9]{10}" required><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+                        <label for="pwd">Password:</label><br>
+                        <input type="password" id="pwd" name="pwd"><br><br>
+
+                        <label for="repwd">Re-Enter Password:</label><br>
+                        <input type="password" id="repwd" name="repwd"><br><br>
+
+                        
+                        <input type="submit" value="Register" class="submit-btn" id="reg-btn" onclick="registerSubmit()">
+                        <br>
+                    </form>
+                    
+                    <form id="login" method="post" action="../php/login.php">
+                        <label for="email">Enter your email:</label><br>
+                        <input type="email" id="log-email" name="email"><br><br>
+
+                        <label for="pwd">Password:</label><br>
+                        <input type="password" id="log-pwd" name="pwd"><br><br>
+                      <!--  <button onclick="registerSubmit()">Search</button> -->
+                        <input type="submit" value="Login" class="submit-btn" id="log-btn">
+                        <br>
+                    </form>
+                </div>    
+       
+            
+        </div>
+        
+        
+                <br>
+        <footer>
+            <div class="footer-nav web">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+                <p>Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+            <img src="../images/payment.png">
+        </div>
+        </footer>
+    </body>
+</html>

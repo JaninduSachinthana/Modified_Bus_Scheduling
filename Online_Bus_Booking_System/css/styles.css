@@ -1,0 +1,661 @@
+/* Header */
+
+.web {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+body {    
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+header {
+    height: 120px;
+    background-color: #313131;
+    position: relative;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 25px;
+    font-family: sans-serif;        
+}
+h1 span {
+    color: #ff9403;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.user {
+   position: absolute;
+   left: 900px;
+   top: 40px; 
+}
+.user img {
+    height: 40px;
+    position: relative;
+}
+
+.user a {
+    position: absolute; 
+    left: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.user a:link,
+.user a:visited {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid aliceblue;
+    border-radius: 200px;
+    padding: 10px 10px;
+}
+
+.user a:active,
+.user a:hover {
+    color: #ffffff; 
+    border: 1px solid #ff9403;
+    background-color: #ff9403;
+}
+
+
+
+/* Navigation Bar */
+.nav {
+    
+    height: 40px;
+    background-color: #ebebeb;
+    position: relative;
+}
+.nav ul {
+    margin: 0;
+    position: relative;
+    left: 31%;
+    
+}
+
+.nav li{
+    float: left;
+    list-style: none; 
+}
+
+.nav a:link,
+.nav a:visited {
+    display: inline-block;
+    color: #505050;
+    text-decoration: none;
+    border: 1px solid aliceblue;
+    padding: 10px 10px;
+    padding: 10px 20px;
+}
+
+.nav a:active,
+.nav a:hover {
+    color: #ffffff; 
+    border: 1px solid #ff9403;
+    background-color: #ff9403;
+}
+
+.content {
+    height: 768px;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+h2 {
+    margin: 0;
+}
+
+.footer-nav {
+    background-color: #313131;
+    position: relative;
+    height: 100px;
+    color: aliceblue;    
+}
+
+.footer-nav ul {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    
+}
+
+.footer-nav a {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.footer-nav p{
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+
+.footer-nav a:link,
+.footer-nav a:visited {
+    color: #b1b1b1;
+    text-decoration: none;
+}
+
+.footer-nav a:active,
+.footer-nav a:hover {
+    color: #ffffff; 
+}
+
+.footer-nav img {
+    width: 200px;
+    float: right;
+    margin: 0;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    animation-name: example;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    
+}
+
+#myForm label{
+    font-size: 25px;
+}
+
+#myForm input{
+    padding: 10px 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+#btnSearch {
+    padding: 10px 15px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+#btnSearch:hover {
+    background-color: #ff9403;
+    color: aliceblue;
+}
+
+#r1 {
+   visibility: hidden;
+    color: #ff9403;
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: #363636;
+    text-align: center;
+    padding: 25px;
+    margin: 25px 0;
+    height: 30px;
+}
+
+#r1 p {
+    float: left;
+    margin: 0;
+}
+
+#r1 a {
+    font-size: 15px;
+    float: right;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+#r1 a:link,
+#r1 a:visited {
+    border: 1px solid aliceblue;
+    border-radius: 200px
+}
+
+#r1 a:active,
+#r1 a:hover {
+    color: #ffffff; 
+    border: 1px solid #ff9403;
+    background-color: #ff9403;
+}
+
+#myForm {
+    text-align: center;
+
+}
+
+.content label {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.content img {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@keyframes example {
+  0%   {color: aliceblue;}
+  50% {color: #ff9403;}
+}
+
+
+
+
+
+
+
+
+
+
+
+.form-title {
+    width: 500px;
+    margin: auto;
+    /*
+    background-color: rgba(255, 255, 255, 0.46); */
+    border-radius: 5px;
+}
+
+.form-title ul {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+.form-title li {
+    display: inline-block;
+}
+
+
+.form-title button:active,
+.form-title button:hover {
+    background-color: rgba(255, 148, 3, 0.19);
+} 
+
+.form-title button:focus {
+    border-bottom: 1px solid #ff9403;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+
+
+.form-title button {
+    margin: 0 ;
+    background-color: rgba(3, 135, 250, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: aliceblue;
+    border: none;
+    padding: 15px 82px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+
+.reg-form {
+    width: 500px;
+    margin: auto;  
+}
+
+.reg-form label {
+    text-align: left;
+}
+
+.reg-form input {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.submit-btn {
+    width: 25%;
+    text-align: center;
+    background-color: #ff9403;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 200px;
+    outline: none;
+
+}
+
+.submit-btn:active,
+.submit-btn:hover {
+  background-color: #ad6400;  
+}
+
+
+
+#register {
+    display: block;
+}
+
+#login {
+    display: none;
+}
+
+
+
+
+
+/* Bashitha */
+
+/* User */
+.user-box {
+    color: aliceblue;
+}
+.user-box img{
+    width: 100px;
+    height: auto;
+}
+
+.user-box {
+    float: left;
+    width: 30%;
+}
+
+.user-box h3 {
+    text-align: center;
+}
+
+.details {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.history {
+    width: 70%;
+    float: right;
+}
+
+.history h4{
+    text-align: center;
+}
+.hisRow {
+    background-color: rgba(255, 255, 255, 0.32);
+    height: 50px;
+    margin: 0 25px;
+}
+
+/* Edite User Details*/
+    
+.edit_profile{
+    
+    width: 50%;
+    margin: auto;
+    background-color: rgb(0,0,0,0.7);
+    text-align: center;
+    color: #FFFF;
+    border-radius: 15px 15px 0 0;
+}    
+
+.main{
+    width:50%;
+    background-color: rgb(0,0,0,0.7);
+    margin: auto;
+}
+
+form{
+    padding:20px;
+}
+
+#e_name{
+    
+    margin:5px;
+    padding: 10px;
+    color:white;
+}
+.e_name{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.first_name{
+    position: relative;
+    left:10px;
+    top: -20px;
+}
+#fname{
+    position: relative;
+    left: 20px;
+    top: -20px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.last_name{
+    position: relative;
+    left: 25px;
+    top: -20px;
+    
+}
+#lname{
+    position: relative;
+    left: 40px;
+    top: -20px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+#e_mail{
+    position: relative;
+    left: 20px;
+    top: -20px;
+    width: 75%;
+    margin: 10px;
+    padding: 6px;
+}
+#phone_no{
+     position: relative;
+    left: 100px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+.n_mail{
+    position: relative;
+    left: 10px;
+    top: -20px
+}
+#select{
+     position: relative;
+    left: 30px;
+    top: -20px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+#n_phone{
+     position: relative;
+    left: 30px;
+    top: -20px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+#new_address{
+    
+     position: relative;
+    left: 110px;
+    top: -55px;
+    width: 75%;
+    margin: 10px;
+    padding: 6px;
+
+}
+
+#editProfile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------Tharuka----------------------------------------------------*/    
+    
+
+
+
+
+    
+    /* Ticket page */
+
+.ticket {
+    background-color: rgba(0, 0, 0, 0.31);
+    width: 50%;
+    height: 700px;
+    font-size: 25px;
+    margin: 0 auto 50px auto;
+    color: aliceblue;
+
+}
+.ticket form {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 50%;
+}
+.ticket label {
+    padding: 25px 0;
+}
+
+.ticketDetail h1 {
+    font-size: 50px;
+    color: #313131;
+}
+
+.b1{
+	border: 2px solid #ff9403;
+	color: white;
+	padding:4px;
+	
+	background:#ff9403;
+	border-radius: 12px;
+}
+
+
+
+
+/* BOOK Page*/
+
+
+}
+
+/* checkout page */
+
+
+.summery {
+    color: aqua;
+	
+}
+
+.b2{
+	
+	width:80%;
+	height: 50%;
+	border: 2px solid #ff9403;
+	color: white;
+	font-size:15px;
+	padding:4px;
+	position:absolute;
+	top:140%;
+	left: 40%;
+	background:#ff9403;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

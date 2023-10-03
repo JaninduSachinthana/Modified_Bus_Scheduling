@@ -1,0 +1,105 @@
+.background{
+	margin:auto;
+	width:1140px;
+	height:auto;
+}
+
+/*Image slide*/
+
+div.slider {
+  overflow:hidden;
+  width:75%;
+  max-width: 1000px;
+  max-height: 400px;
+  margin-left:155px;
+  margin-top:10px;
+}
+div.slider div {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  font-size: 0;
+  animation: 10s slider infinite;
+}
+div.slider div img {
+  width: 855px;
+  height: 300px;
+  float: left;
+}
+@keyframes slider {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+/*Offer buttons*/
+h3{
+	display:none;
+	position:absolute;
+	color: aliceblue;
+	margin-top:-247px;
+	margin-left:670px;
+	background-color:#313131;
+	padding:0 3px;
+}
+h3 span {
+    color: #ff9403;
+}
+.button{
+	padding:10px;
+}
+.btn{
+	display:block;
+	width:800px;
+	height:45px;
+	margin:auto;
+	margin-bottom:10px;
+	text-align:left;
+	font-size:25px;
+	font-weight:bold;
+	background-color:#313131;
+	letter-spacing: 0.5px;
+	color:aliceblue;
+	border-radius:10px;
+	padding-left:25px;
+	outline:none;
+}
+.btn:hover{
+	background-color: #ff9403;
+	color:white;
+	cursor:pointer;
+}
+.btn:after{
+	background-color: #ff9403;
+}
+.para1{
+	display:none;
+}
+.para2{
+	display:none;
+}
+.para3{
+	display:none;
+}
+.para4{
+	display:none;
+}
+.para{
+	background-color:aliceblue;
+	opacity:0.6;
+	font-size:15px;
+	margin-left:190px;
+	margin-top:-10px;
+	width:800px;
+}
+.para ul li{
+	padding:3px;
+	color:black;
+}

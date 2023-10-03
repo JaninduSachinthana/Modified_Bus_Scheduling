@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit Profile</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script src="../js/script.js"></script><script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <header class="web">
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="#">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav web">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+          
+        
+        <div class="edit_profile"><h2> Edit profile </h2></div>
+                <div class="main">
+                    <form action="../php/editUser.php" method="post">
+                        <div id="e_name">
+                            <h4 class="e_name"> Edit name:</h4>
+                            <label for="firstname" class="first_name">First Name:</label>
+                              <input type="text" id="fname" name="firstname" >
+                            <label for="lastname" class="last_name">Last Name:</label>
+                              <input type="text" id="lname" name="lastname" >
+                            <h4 class="e_name">Email:</h4>
+                            <label for="newname" class="n_mail">New Email:</label>
+                              <input type="text" id="e_mail" name="email">
+                        <h4 class="e_name">Phone Number:</h4>
+                             <label for="phoneno" class="first_name">Phone No:</label>
+                       
+                            <input type="text" id="n_phone" name="phone">
+                        
+                        </div>
+                        <input type="submit" value="Save" name="savebtn">
+                    </form>
+                    
+                    
+                    
+                </div>
+        
+
+         <br><br>
+        <footer>
+            <div class="footer-nav web" style="margin-top: 200px">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+                
+            <img src="../images/payment.png"><br><br><p>Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+        </div>
+        </footer>
+    </body>
+</html>

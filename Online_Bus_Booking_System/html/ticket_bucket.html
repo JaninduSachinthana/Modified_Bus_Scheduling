@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eBookingLk</title>
+        <link rel="stylesheet" type="text/css" href="../css/stylesNadun.css">
+        <script src="../js/script.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <h1>eBooking<span>Lk</span></h1>
+            <div class="logo">
+                <img src="../images/Logo.png">
+            </div>
+            <div class="user">
+                <img src="../images/user.png">
+                <a href="#">Register/Login</a>
+            </div>
+        </header>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+        </div>
+    
+        
+ <!--content-->
+            
+        <h2><b>My Ticket Bucket</b></h2>   
+    
+    
+        <button type="button" class="collapsible"><table><tr><td>• <?php echo $testName[0]; ?></td></tr></table></button>
+<div class="content">
+  <p>Status:<span style="color:green">ACTIVE</span><button class="view" onclick="myFunction()" >View</button></p>
+</div>
+        
+        <button type="button" class="collapsible"><table><tr><td>• <?php echo $testName[1]; ?></td></tr></table></button>
+<div class="content">
+  <p>Status:<span style="color:red">FAILD</span><button class="view" onclick="myFunction()" >View</button></p>
+</div>
+        <button type="button" class="collapsible"><table><tr><td>• <?php echo $testName[2]; ?></td></tr></table></button>
+<div class="content">
+  <p>Status:<span style="color:green">ACTIVE</span><button class="view" onclick="myFunction()" >View</button></p>
+</div>
+        <button type="button" class="collapsible"><table><tr><td>• <?php echo $testName[3]; ?></td></tr></table></button>
+<div class="content">
+  <p>Status:<span style="color:green">ACTIVE</span><button class="view" onclick="myFunction()" >View</button></p>
+</div>
+        <button type="button" class="collapsible"><table><tr><td>• <?php echo $testName[4]; ?></td></tr></table></button>
+<div class="content">
+  <p>Status:<span style="color:green">ACTIVE</span><button class="view" onclick="myFunction()" >View</button></p>
+</div>
+        <button type="button" class="collapsible"><table><tr><td>• <?php echo $testName[5]; ?></td></tr></table></button>
+<div class="content">
+  <p>Status:<span style="color:green">ACTIVE</span><button class="view" onclick="myFunction()" >View</button></p>
+</div>
+        <button type="button" class="collapsible"><table><tr><td>• <?php echo $testName[6]; ?></td></tr></table></button>
+<div class="content">
+  <p>Status:<span style="color:green">ACTIVE</span><button class="view" onclick="myFunction()" >View</button></p>
+</div>
+        
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var j;
+                for (j = 0; j < coll.length; j++) {
+                coll[j].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } 
+                    else {
+                      content.style.display = "block";
+                }
+              } );
+                }
+                
+                
+                function myFunction() {
+                  location.replace(href="edit_ticket.html")
+                }
+            
+            </script>
+   
+    </div>
+        
+       <br>
+        <footer>
+            <div class="footer-nav web">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Tickets</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">About</a> </li>
+            </ul>
+                <p>Copyright 2018 © eBookingLK. All Rights Reserved.</p>
+            <img src="../images/payment.png">
+        </div>
+        </footer>
+    </body>
+</html>
